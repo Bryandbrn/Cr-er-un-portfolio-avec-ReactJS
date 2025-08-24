@@ -1,11 +1,11 @@
-# 🌐 Portfolio - John DOE
+ Portfolio - John DOE
 
 Ce projet est un **portfolio personnel** développé en **React.js** avec **Bootstrap**, dans le cadre de la formation de développeur web au CEF.  
 Il présente le profil de John DOE, ses services, ses réalisations ainsi qu’une page de contact et les mentions légales.
 
 ---
 
-## 🚀 Fonctionnalités
+ Fonctionnalités
 
 - Page d’accueil avec **Hero** + présentation et compétences (progress bars).
 - Page **Services** avec cards et effets au survol.
@@ -18,7 +18,7 @@ Il présente le profil de John DOE, ses services, ses réalisations ainsi qu’u
 
 ---
 
-## 🛠️ Technologies utilisées
+Technologies utilisées
 
 - [React.js](https://fr.react.dev/)  
 - [React Router](https://reactrouter.com/)  
