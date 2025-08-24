@@ -28,5 +28,71 @@ Technologies utilisées
 ---
 
 ## 📂 Structure du projet
+src/
+├─ assets/ # Images, favicon, logo
+├─ components/ # Composants globaux (Header, Footer, Hero, etc.)
+│ ├─ Header.jsx
+│ ├─ Footer.jsx
+│ ├─ Hero.jsx
+│ └─ GithubModal.jsx
+├─ pages/ # Pages principales
+│ ├─ Home.jsx
+│ ├─ Services.jsx
+│ ├─ Portfolio.jsx
+│ ├─ Contact.jsx
+│ └─ Mentions.jsx
+├─ App.jsx # Définition des routes
+├─ main.jsx # Point d’entrée React
+└─ index.css # Styles globaux + effets graphiques
+
+---
+
+## ⚙️ Installation et utilisation
+
+1. **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/ton-compte/portfolio-react.git
+   cd portfolio-react
+Installer les dépendances
+
+npm install
+
+
+Lancer le serveur de développement
+
+npm run dev
+
+
+Ouvrir dans le navigateur
+Par défaut : http://localhost:5173
+Déploiement
+
+Ce projet peut être déployé facilement sur :
+
+Vercel
+
+Netlify
+
+GitHub Pages via gh-pages
+
+📸 Captures d’écran
+
+(à ajouter une fois les pages complétées et stylisées)
+
+📜 Mentions légales
+
+Éditeur du site : John DOE
+
+Hébergeur : à compléter
+
+Crédits :
+
+Images : Pixabay
+
+Icônes : Flaticon
+
+
+
+
 
 
