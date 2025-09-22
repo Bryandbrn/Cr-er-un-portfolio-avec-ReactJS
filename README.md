@@ -1,98 +1,70 @@
- Portfolio - John DOE
+# Getting Started with Create React App
 
-Ce projet est un **portfolio personnel** développé en **React.js** avec **Bootstrap**, dans le cadre de la formation de développeur web au CEF.  
-Il présente le profil de John DOE, ses services, ses réalisations ainsi qu’une page de contact et les mentions légales.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
- Fonctionnalités
+In the project directory, you can run:
 
-- Page d’accueil avec **Hero** + présentation et compétences (progress bars).
-- Page **Services** avec cards et effets au survol.
-- Page **Portfolio** avec au moins 6 projets.
-- Page **Contact** avec formulaire + coordonnées + Google Map.
-- Page **Mentions légales** avec accordéon Bootstrap (non indexée SEO).
-- **Header** et **Footer** présents sur toutes les pages.
-- **Modale GitHub** : intégration de l’API GitHub pour afficher des infos de profil.
-- Effets graphiques conformes à la consigne (hover, ombres, transitions CSS).
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Technologies utilisées
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- [React.js](https://fr.react.dev/)  
-- [React Router](https://reactrouter.com/)  
-- [Bootstrap](https://getbootstrap.com/)  
-- CSS personnalisé (effets hover, transitions, responsivité)  
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 📂 Structure du projet
-src/
-├─ assets/ # Images, favicon, logo
-├─ components/ # Composants globaux (Header, Footer, Hero, etc.)
-│ ├─ Header.jsx
-│ ├─ Footer.jsx
-│ ├─ Hero.jsx
-│ └─ GithubModal.jsx
-├─ pages/ # Pages principales
-│ ├─ Home.jsx
-│ ├─ Services.jsx
-│ ├─ Portfolio.jsx
-│ ├─ Contact.jsx
-│ └─ Mentions.jsx
-├─ App.jsx # Définition des routes
-├─ main.jsx # Point d’entrée React
-└─ index.css # Styles globaux + effets graphiques
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## ⚙️ Installation et utilisation
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. **Cloner le dépôt**
-   ```bash
-   git clone https://github.com/ton-compte/portfolio-react.git
-   cd portfolio-react
-Installer les dépendances
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-npm install
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Lancer le serveur de développement
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-npm run dev
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Ouvrir dans le navigateur
-Par défaut : http://localhost:5173
-Déploiement
+## Learn More
 
-Ce projet peut être déployé facilement sur :
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Vercel
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Netlify
+### Code Splitting
 
-GitHub Pages via gh-pages
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-📸 Captures d’écran
+### Analyzing the Bundle Size
 
-(à ajouter une fois les pages complétées et stylisées)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-📜 Mentions légales
+### Making a Progressive Web App
 
-Éditeur du site : John DOE
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Hébergeur : à compléter
+### Advanced Configuration
 
-Crédits :
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Images : Pixabay
+### Deployment
 
-Icônes : Flaticon
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

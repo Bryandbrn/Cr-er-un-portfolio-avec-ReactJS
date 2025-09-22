@@ -1,0 +1,167 @@
+/* Global styles and required effects per assignment */
+:root {
+    --hero-overlay: rgba(0, 0, 0, 0.45);
+}
+
+/* Nunito Sans everywhere */
+body,
+html {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* Titres et <strong> en 600 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 600 !important;
+}
+
+/* Header navigation */
+.navbar .nav-link {
+    text-transform: uppercase;
+    /* required */
+    transition: text-decoration-color .2s ease, color .2s ease;
+    text-decoration: none;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+    /* required */
+}
+
+.navbar .nav-link.active {
+    font-weight: 700;
+    /* required */
+    text-decoration: underline;
+    /* required */
+}
+
+/* Hero section */
+.hero {
+    position: relative;
+    min-height: 100vh;
+    /* full page height */
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--hero-overlay);
+}
+
+.hero>.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1,
+.hero h2 {
+    text-shadow: 0 2px 12px rgba(0, 0, 0, .4);
+}
+
+/* Cards hover effects (services & portfolio) */
+.card {
+    transition: background-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.card:hover {
+    background-color: #efefef;
+    /* required */
+    box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, .12);
+    /* required */
+    transform: translateY(-2px);
+}
+
+/* Buttons hover (darken a bit) */
+.btn {
+    transition: filter .2s ease, transform .15s ease;
+}
+
+.btn:hover {
+    filter: brightness(0.92);
+    /* required: assombrir légèrement */
+    transform: translateY(-1px);
+}
+
+/* Footer */
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: 700;
+    /* links become bold on hover (required) */
+}
+
+.footer-social i,
+.footer-social svg {
+    transition: filter .2s ease, opacity .2s ease;
+}
+
+.footer-social a:hover i,
+.footer-social a:hover svg {
+    filter: brightness(0) invert(1);
+    /* become white on hover (required) */
+    opacity: 0.95;
+}
+
+/* Utilities */
+.section-title {
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+
+.progress {
+    height: 1rem;
+}
+
+.portfolio-card {
+    border: 2px solid #007bff;
+    /* Couleur et épaisseur de la bordure */
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.2s;
+    background: #ffffff;
+}
+
+.portfolio-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.service-card {
+    border: 2px solid #0d6efd;
+    border-radius: 14px;
+    background: #f8fafd;
+    box-shadow: 0 2px 8px rgba(13, 110, 253, 0.07);
+    transition: box-shadow 0.2s;
+}
+
+.service-card:hover {
+    box-shadow: 0 4px 16px rgba(13, 110, 253, 0.15);
+}
+
+.trait-bleu {
+    border: none;
+    border-top: 6px solid #0d6efd;
+    /* plus épais et plus voyant */
+    width: 180px;
+    /* plus long si tu veux */
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    opacity: 1;
+    box-shadow: 0 2px 8px #0d6efd33;
+    /* léger halo bleu pour accentuer */
+}
+
